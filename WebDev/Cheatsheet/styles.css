@@ -1,10 +1,22 @@
-h1 {
+body {
+    background-color: #121212;
+    color: rgb(200, 178, 150);
     text-align: center;
 }
 
+.code {
+    font-family: monospace;
+}
+h1 {
+    
+}
+
 table, td, th {
+    border-color: rgb(147, 59, 228);
     border: 1px solid;
     border-collapse: collapse;
+    margin: auto;
+
 }
  th {
     text-align: center;
