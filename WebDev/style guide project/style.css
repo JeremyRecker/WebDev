@@ -1,0 +1,22 @@
+nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+#colorbox1 h4 {
+    color: rgb(200, 178, 150);
+    background-color: #121212;
+    padding: 50px;
+    border: 0px;
+    margin: 20px;
+}
+
+#colorbox2 {
+    color: #121212;
+    background-color: rgb(200, 178, 150);
+}
+
+#colorbox3 {
+    color: rgb(200, 178, 150);
+    background-color: rgb(147, 59, 228);
+}
