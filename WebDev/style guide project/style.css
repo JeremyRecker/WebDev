@@ -1,14 +1,24 @@
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
 nav li {
     list-style-type: none;
     display: inline;
 }
 
-#colorbox1 h4 {
+h2 {
+    text-align: center;
+    border-bottom: #121212 solid;
+}
+
+#colorbox1 {
     color: rgb(200, 178, 150);
     background-color: #121212;
-    padding: 50px;
-    border: 0px;
-    margin: 20px;
 }
 
 #colorbox2 {
@@ -19,4 +29,21 @@ nav li {
 #colorbox3 {
     color: rgb(200, 178, 150);
     background-color: rgb(147, 59, 228);
+}
+
+#colorbox1,
+#colorbox2,
+#colorbox3 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colors .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
