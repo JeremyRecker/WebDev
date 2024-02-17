@@ -17,23 +17,22 @@ h2 {
 }
 
 #colorbox1 {
-    color: rgb(200, 178, 150);
+    color: #C8B296;
     background-color: #121212;
 }
 
 #colorbox2 {
     color: #121212;
-    background-color: rgb(200, 178, 150);
+    background-color: #C8B296;
 }
 
 #colorbox3 {
-    color: rgb(200, 178, 150);
-    background-color: rgb(147, 59, 228);
+    color: #C8B296;
+    background-color: #933BE4;
 }
 
-#colorbox1,
-#colorbox2,
-#colorbox3 {
+
+.colorboxes {
     width: 100px;
     height: 100px;
     margin: 20px;
@@ -42,7 +41,7 @@ h2 {
     align-items: center;
 }
 
-#colors .container {
+#colors{
     display: flex;
     justify-content: center;
     align-items: center;
