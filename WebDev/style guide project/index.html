@@ -7,17 +7,23 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
         <title>Website Style Guide</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
+<!--Old Browser version-->
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+<!--Heading-->
          <header>
             <h1>Website Style Guide</h1>
+<!--navigation-->
             <nav>
                 <ul>
                     <li><a href="#tocolors">Color</a></li>
@@ -26,35 +32,95 @@
                 </ul>
             </nav>
          </header>
+
+<!--Main-->
          <main>
-            <a class="anchor" name="tocolors"></a>
-            <section aria-describedby="colorsection">
-                <h2 id="colorsection">Colors</h2>
+
+<!--Colors-->
+            <a class="anchor" name="toColors"></a>
+            <section aria-describedby="colorSection">
+                <h2 id="colorSection">Colors</h2>
                 <div class="container" id="colors">
-                    <div class="colorboxes" id="colorbox1" aria-describedby="Almost Black">
+                    <div class="colorBoxes" id="colorBox1" aria-describedby="Almost Black">
                         <p class="color-label" id="Almost Black">Almost Black</p>
                         <p class="color-hex">#121212</p>
                     </div>
-                    <div class="colorboxes" id="colorbox2" aria-describedby="Tan-Grey">
+                    <div class="colorBoxes" id="colorBox2" aria-describedby="Tan-Grey">
                         <p class="color-label" id="Tan-Grey">Tan-Grey</p>
                         <p class="color-hex">#C8B296</p>
                     </div>
-                    <div class="colorboxes" id="colorbox3" aria-describedby="Light Purple">
+                    <div class="colorBoxes" id="colorBox3" aria-describedby="Light Purple">
                         <p class="color-label" id="Light Purple">Light Purple</p>
                         <p class="color-hex">#933BE4</p>
                     </div>
                 </div>
             </section>
 
-            <a class="anchor" name="tofonts"></a>
-            <section id="fonts" aria-describedby="fontsection">
-                <div><h2 id="fontsection">Fonts</h2></div>
+
+
+
+<!--Fonts-->
+            <a class="anchor" name="toFonts"></a>
+            <section id="fonts" aria-describedby="fontSection">
+                <h2 id="fontSection">Fonts</h2>
+<!--stylelinks-->
+                <details id="embed">
+                    <summary>&lt; Embed &gt;</summary>
+                    <div>
+                        <br>
+                        &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+                        &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+                        &lt;link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"&gt;
+                    </div>
+                </details>
+
+<!--cards-->
+                <div class="container" id="fonts">
+                    <div class="fontCard" id="Quattrocento">
+                        <h3>Quattrocento - Headings</h3>
+                        <p class="exampletext">
+                            "Knowing yourself is the beginning of all wisdom." - Aristotle<br>
+                            "The only true wisdom is in knowing you know nothing." - Socrates<br>
+                            "Be the change that you wish to see in the world." - Mahatma Gandhi<br>
+                            "The unexamined life is not worth living." - Socrates<br>                     
+                        </p>
+                    </div>
+                    <div class="fontCard" id="QuattrocentoSans">
+                        <h3>Quattrocento Sans - General use</h3>
+                        <p class="exampletext">
+                            "Knowing yourself is the beginning of all wisdom." - Aristotle<br>
+                            "The only true wisdom is in knowing you know nothing." - Socrates<br>
+                            "Be the change that you wish to see in the world." - Mahatma Gandhi<br>
+                            "The unexamined life is not worth living." - Socrates<br>                     
+                        </p>
+                    </div>
+                    <div class="fontCard" id="RobotoMono">
+                        <h3>Roboto Mono - links, data, ect</h3>
+                        <p class="exampletext">
+                            "Knowing yourself is the beginning of all wisdom." - Aristotle<br>
+                            "The only true wisdom is in knowing you know nothing." - Socrates<br>
+                            "Be the change that you wish to see in the world." - Mahatma Gandhi<br>
+                            "The unexamined life is not worth living." - Socrates<br>                     
+                        </p>
+                    </div>
+
+                </div>
             </section>
-            
-            <a class="anchor" name="totextstyles"></a>
-            <section id="textstyles" aria-describedby="textsection">
+
+
+
+
+
+<!--Text Styles-->
+            <a class="anchor" name="toTextStyles"></a>
+            <section id="textStyles" aria-describedby="textSection">
                 <div><h2 id="textsection">Text Styles</h2></div>
             </section>
+
+
+            
+
+<!--End of Main-->
          </main>
                  
         <script src="" async defer></script>
