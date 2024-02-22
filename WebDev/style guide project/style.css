@@ -1,3 +1,63 @@
+
+/*Quattrocento*/
+@font-face {
+    font-family: 'quattrocento';
+    src: url(Assets/Fonts/Quattrocento/quattrocento-regular-webfont.woff2);
+    src: url(Assets/Fonts/Quattrocento/quattrocento-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: 'quattrocento';
+    font-weight: '700';
+    src: url(Assets/Fonts/Quattrocento/quattrocento-bold-webfont.woff2);
+    src: url(Assets/Fonts/Quattrocento/quattrocento-bold-webfont.woff);
+}
+
+/*QuattrocentoSans*/
+@font-face {
+    font-family: 'quattrocentosans';
+    src: url(Assets/Fonts/QuattrocentoSans/quattrocentosans-regular-webfont.woff2);
+    src: url(Assets/Fonts/QuattrocentoSans/quattrocentosans-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: 'quattrocentosans';
+    font-weight: 700;
+    src: url(Assets/Fonts/QuattrocentoSans/quattrocentosans-bold-webfont.woff2);
+    src: url(Assets/Fonts/QuattrocentoSans/quattrocentosans-bold-webfont.woff);
+}
+
+@font-face {
+    font-family: 'quattrocentosans';
+    font-style: italic;
+    src: url(Assets/Fonts/QuattrocentoSans/quattrocentosans-italic-webfont.woff2);
+    src: url(Assets/Fonts/QuattrocentoSans/quattrocentosans-italic-webfont.woff);
+}
+
+@font-face {
+    font-family: 'quattrocentosans';
+    font-style: italic;
+    font-weight: 700;
+    src: url(Assets/Fonts/QuattrocentoSans/quattrocentosans-bolditalic-webfont.woff2);
+    src: url(Assets/Fonts/QuattrocentoSans/quattrocentosans-bolditalic-webfont.woff);
+}
+
+/*Roboto*/
+@font-face {
+    font-family: 'roboto';
+    src: url('Assets/Fonts/Roboto/robotomono-variablefont_wght-webfont.woff2');
+    src: url('Assets/Fonts/Roboto/robotomono-variablefont_wght-webfont.woff');
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-style: italic;
+    src: url('Assets/Fonts/Roboto/robotomono-italic-variablefont_wght-webfont.woff2');
+    src: url('Assets/Fonts/Roboto/robotomono-italic-variablefont_wght-webfont.woff');
+}
+
+
+
 h1 {
     text-align: center;
 }
@@ -29,7 +89,6 @@ h2 {
     background-color: #933BE4;
 }
 
-
 .colorBoxes {
     width: 100px;
     height: 100px;
@@ -46,5 +105,14 @@ h2 {
 }
 
 #embed {
-    figure out font loading
+    font-family: roboto;
+    font-weight: bold;
+}
+#embed summary {
+    user-select: none;
+    cursor: pointer;
+}
+
+#Quattrocento {
+    font-family: ;
 }
