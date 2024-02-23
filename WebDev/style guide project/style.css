@@ -104,15 +104,23 @@ h2 {
     align-items: center;
 }
 
-#embed {
+#embed{
     font-family: roboto;
     font-weight: bold;
 }
-#embed summary {
+#embed summary{
     user-select: none;
     cursor: pointer;
 }
 
 #Quattrocento {
-    font-family: ;
+    font-family: quattrocento;
+}
+
+#QuattrocentoSans {
+    font-family: quattrocentosans;
+}
+
+#Roboto {
+    font-family: roboto;
 }
