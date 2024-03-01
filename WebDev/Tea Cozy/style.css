@@ -20,25 +20,28 @@ header {
 }
 
 #logo {
+    /*border: 1px solid purple;*/
     display: flex;
     box-sizing: border-box;
     height: 50px;
-    border: 1px solid purple;*/
     margin: 10px;
-
+ 
 
 }
 
 nav {
+    /*border: 1px solid purple;*/
     display: inline-flex;
     box-sizing: border-box;
-    border: 1px solid purple;
-    margin-right: 10px;
     margin-left: auto;
     display: inline-flex;
+    align-content: space-between;
+
 }
 
 nav div {
-    border: 1px solid purple;
-    align-items: flex-end;
+    /*border: 1px solid purple;*/
+    text-decoration: underline seashell 1px;
+    margin: 10px;
+    
 }
