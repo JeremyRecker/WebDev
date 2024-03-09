@@ -1,4 +1,5 @@
 html {
+
     font-family: Helvetica, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 22px;
     color: seashell;    
@@ -7,14 +8,26 @@ html {
     box-sizing: border-box;
 /*    border: 1px solid wheat;*/
     margin: 0px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
+body {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    /*border: 1px solid purple;*/
+}
+
+h4 {
+    /*border: 1px solid purple;*/
+}
 
 header {
-    position: fixed;
+    position: sticky;
     z-index: 999;
     background-color: black;
     display: inline-flex;
@@ -23,6 +36,7 @@ header {
     width: 100%;
     border-bottom: 1px solid seashell;
     align-items: center;
+    left: 0;
 }
 
 #logo {
@@ -50,32 +64,68 @@ nav div {
     
 }
 
-
-.hero {
-    padding-top: 70px;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
-}
-
 .container {
+    display: flex;
     position: relative;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border: 1px solid purple;
+    font-size: 1rem;
+    
+}
+
+.container h2{
+    margin: 0px;
+    padding-top: 5;
+    padding-bottom: 8px;
+}
+
+.container h4 {
+    margin: 0px;
+    padding: 5px;
+}
+
+#mission {
+    max-width: 1200px;
+    max-height: 700px;
+    margin: auto;
+
 }
 
 .text-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    flex-basis: ;
-    flex-shrink: 1;
-    min-width: 80%;
-    min-height: 20%;
-    flex-grow: 1;
-    max-height: 40%;
-    max-width: 90%;
+    /*border: 1px solid purple;*/
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column;
     background-color: black;
+    z-index: 1;
+    margin: 0;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100px;
+   
+}
+
+#mission .text-overlay {
+    position: absolute; /* Position the text-overlay absolutely within the hero section */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the text-overlay precisely */
+}
+
+#mission img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    z-index: -1; /* Ensure the image sits behind the text-overlay */
+}
+
+#teaOfTheMonth {
+max-width: 1000px;
+
+}
+
+#locations {
+
 }
