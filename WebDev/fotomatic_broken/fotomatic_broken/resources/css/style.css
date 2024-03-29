@@ -26,16 +26,16 @@ grid-template-rows: 1fr 2fr;
 grid-template-columns: 1fr;
 }
 
-.image-container {
+.images-container {
   margin-left: 1%;
   margin-right: 1%;
   overflow: hidden;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
 }
 
-.image-container img {
+.images-container img {
   max-width: 100%;
   height: auto;
 }
