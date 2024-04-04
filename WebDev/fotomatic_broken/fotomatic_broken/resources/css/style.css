@@ -28,6 +28,21 @@ html {
   border: 1px solid purple;
 }
 
+.images-container {
+  margin: 1%, 2.5rem, 1%, 4rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  border: 1px solid purple;
+}
+
+.images-container img {
+  max-width: 100%;
+  height: auto;
+
+}
+
 @media only screen and (min-width: 890px) {
   
   body {
@@ -48,21 +63,7 @@ html {
     font-size: 1rem;
   }
 
-  .images-container {
-    margin: 1%, 2.5rem, 1%, 4rem;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    border: 1px solid purple;
-  }
-
-  .images-container img {
-    max-width: 100%;
-    height: auto;
-
-  }
-
+ 
   footer {
     font-size: .75rem;
     height: 3.875rem;
